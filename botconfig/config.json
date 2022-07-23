@@ -1,0 +1,52 @@
+{
+  "token": "Token",
+  "prefix": "e!",
+  "clientsettings": {
+    "nodes": [
+      {
+         "host": "localhost",
+         "port": 2333,
+         "password": "youshallnotpass"
+       }
+     ]
+  },
+
+  "spotify": {
+    "clientSecret": "SC",
+    "clientID": "ID"
+  },
+
+  "settings": {
+       "COMMENT": "time_delay 0 === insta leave",
+    "progressbar_emoji": "🔶",
+    "leaveOnEmpty_Channel" : {
+      "enabled": true,
+      "time_delay": 60000
+    },
+    "LeaveOnEmpty_Queue": {
+      "enabled": true,
+      "time_delay": 30000
+    },
+    "selfDeaf": true,
+    "serverDeaf": true
+  },
+
+  "lyricssettings": {
+    "lyrics_finder": true,         "COMMENT": "need to add ksoft_api ",
+    "ksoft_api": {
+      "use_this_instead": false,
+      "api_key": ""
+    }
+  },
+
+
+  "ownerIDS": ["873368320756318229"],
+
+
+  "status": {
+    "text": "e!help | Best music bot",
+    "type": "PLAYING", "COMMENT:": "TYPES ARE: PLAYING, STREAMING, WATCHING, LISTENING",
+    "url": "https://www.youtube.com/watch?v=Pz9eWv7Ksfg"
+  }
+
+}
